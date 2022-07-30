@@ -14,14 +14,13 @@ Now that you are all set up, it's time to learn a little more about the tools of
     Git checkout, for this example it would be 'git checkout main'
 6. Explain the difference between `git fetch`, `git merge` and `git pull`. What does each command do?
     git fetch :
-        allows you to see any changes to the remote repository, but does not pull them in
+        allows you to fetch any changes to your local repository from the remote repository, but does not pull them into your working directory 
     git merge :
         merges two branches together again 
     git pull :
-        pulls any changes to your local repository from a remote repository
+        pulls any changes to your local repository, and into your working directory from a remote repository
 7. What is a merge conflict?
     A merge conflict happens when two branches cannot be merged together without interfering with their individual changes in some way
 8. How do you resolve a merge conflict?
     You resolve a merge conflict by telling git which conflicting line of code you'd like to keep - you open the code in your local repo, change the lines to no longer conflict, and then re add/commit/push the file.
     Github also has it's own conflict editor to correct the conflicting lines of code from the remote repo. 
-    
